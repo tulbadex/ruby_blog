@@ -7,3 +7,18 @@ one:
 two:
   title: MyString
   body: MyText
+
+draft:
+  title: Draft nlog posy
+  body: MyText
+  published_at: nil
+
+published:
+  title: Published blog post
+  body: MyText
+  published_at: <%= Time.current %>
+
+scheduled:
+  title: Scheduled blog post
+  body: MyText
+  published_at: 1.year.from_now
